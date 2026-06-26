@@ -30,6 +30,7 @@ app.use(
     origin: [
       'http://localhost:5173', 
       'http://localhost:3000',
+      'https://aura-fashion-fe.vercel.app/'
     ],
     credentials: true,
   })
